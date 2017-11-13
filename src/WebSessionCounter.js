@@ -17,7 +17,7 @@ const canUseLocalStorage = isLocalStorageSupported();
 
 class WebSessionCounter {
     constructor() {
-        this.update();
+        // this.update();
     }
 
     get count() {
